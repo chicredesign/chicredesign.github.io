@@ -1,0 +1,63 @@
+.nav-container {
+  position: absolute;
+  top: 55px;
+  width: 1200px;
+  height: 188px;
+
+  .main-bar {
+    position: absolute;
+    top: 26px;
+    z-index: 1;
+    height: 136px;
+    width: 100%;
+    background: #8f8f8f;
+  }
+
+  .link-box {
+    position: absolute;
+    top: 58px;
+    left: 195px;
+    z-index: 2;
+    width: 810px;
+    height: 72px;
+    background: #65a604;
+
+    .nav-link {
+      width: 238px;
+      height: 24px;
+      line-height: 24px;
+      text-align: center;
+      color: #ffffff;
+      font-weight: bold;
+
+      &:hover {
+        background: #76af0f;
+      }
+    }
+
+    .left-links {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .right-links {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+
+  .logo-box {
+    position: absolute;
+    top: 0;
+    left: 433px;
+    z-index: 3;
+    margin: 0 auto;
+    height: 100%;
+    width: 334px;
+    background: #393839 url('/assets/CHIC_logo.gif') no-repeat;
+    background-size: cover;
+  }
+}
+
