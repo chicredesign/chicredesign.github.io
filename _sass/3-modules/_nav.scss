@@ -11,6 +11,7 @@
     height: 136px;
     width: 100%;
     background: #8f8f8f;
+    border: 1px solid #7D7D7D;
   }
 
   .link-box {
@@ -29,6 +30,7 @@
       text-align: center;
       color: #ffffff;
       font-weight: bold;
+      border: 1px solid #6ca707;
 
       &:hover {
         background: #76af0f;
@@ -60,4 +62,3 @@
     background-size: cover;
   }
 }
-
