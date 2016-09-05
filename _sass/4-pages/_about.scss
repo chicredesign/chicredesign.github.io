@@ -1,0 +1,57 @@
+.about {
+  position: absolute;
+  top: 275px;
+  height: 545px;
+  width: 1200px;
+  overflow-y: hidden;
+
+  #about-container {
+    margin: 0 auto;
+    height: 550px;
+    width: 730px;
+    overflow-x: scroll;
+
+    .carousel-indicators { bottom: 0px; }
+
+    .carousel-inner {
+      height: 520px;
+      width: 580px;
+      margin: 0 auto;
+
+      .bio-container {
+        float: left;
+        margin: 15px 10px;
+
+        .title {
+          background: #65a604;
+          height: 50px;
+
+          h1 {
+            display: inline;
+            font-size: 32px;
+            line-height: 50px;
+            margin-left: 10px;
+          }
+
+          h2 {
+            display: inline;
+            font-size: 18px;
+            margin-left: 15px;
+          }
+        }
+
+        .blurb {
+          height: 490px;
+          margin-top: 10px;
+          line-height: 120%; // A bit wonky but works for now
+
+          img {
+            height: 270px;
+            float: left;
+            padding-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
