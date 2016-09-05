@@ -1,0 +1,32 @@
+.about-celine {
+  .images {
+    position: absolute;
+    top: 277px;
+    left: 24px;
+    height: 552px;
+    width: 356px;
+  }
+
+  .timeline {
+    position: absolute;
+    top: 293px;
+    left: 387px;
+    width: 768px;
+    height: 500px;
+
+    table {
+      tr {
+        color: #dadada;
+        &:nth-child(even) {
+          color: #aeb0a5;
+        }
+        td {
+          vertical-align: top;
+          &:first-child {
+            width: 90px;
+          }
+        }
+      }
+    }
+  }
+}
