@@ -1,25 +1,25 @@
 .about {
   position: absolute;
-  top: 275px;
-  height: 545px;
+  top: 260px;
+  height: 580px;
   width: 1200px;
   overflow-y: hidden;
 
   #about-container {
     margin: 0 auto;
-    height: 550px;
+    height: 580px;
     width: 730px;
     overflow-x: scroll;
 
     .carousel-indicators { bottom: 0px; }
 
     .carousel-inner {
-      height: 520px;
+      height: 580px;
       width: 580px;
       margin: 0 auto;
 
       .bio-container {
-        float: left;
+        //float: left;
         margin: 15px 10px;
 
         .title {
@@ -49,6 +49,20 @@
             height: 270px;
             float: left;
             padding-right: 10px;
+          }
+
+          .more-link {
+            height: 25px;
+            width: 200px;
+            margin: 0 auto;
+            text-align: center;
+            background: #65a604;
+            color: #ffffff;
+            line-height: 25px;
+
+            &:hover {
+              background: #76af0f;
+            }
           }
         }
       }
