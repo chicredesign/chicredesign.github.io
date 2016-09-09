@@ -1,0 +1,39 @@
+.navigation {
+  position: absolute;
+  top: 400px;
+  left: 25px;
+  height: 180px;
+  width: 238px;
+  text-align: center;
+
+  h1 { margin: 5px 0; }
+
+  .entries {
+    height: 125px;
+    background: #65a604;
+
+    a {
+      text-decoration: none;
+      color: #dadada;
+    }
+
+    li {
+      height: 25px;
+      line-height: 25px;
+
+      &:hover {
+        background: #76af0f;
+      }
+    }
+  }
+}
+
+.blurb {
+  position: absolute;
+  top: 400px;
+  left: 400px;
+  height: 259px;
+  width: 600px;
+  text-align: center;
+  font-size: 18px;
+}
