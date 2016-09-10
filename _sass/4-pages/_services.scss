@@ -17,6 +17,10 @@
       color: #dadada;
     }
 
+    .selected {
+      background: #76af0f;
+    }
+
     li {
       height: 25px;
       line-height: 25px;
@@ -36,4 +40,31 @@
   width: 600px;
   text-align: center;
   font-size: 18px;
+}
+
+.description {
+  position: absolute;
+  top: 400px;
+  left: 280px;
+  height: 255px;
+  width: 259px;
+  text-align: center;
+  font-size: 16px;
+
+  ul {
+    padding-left: 55px;
+  }
+
+  li {
+    list-style: circle;
+    text-align: left;
+  }
+}
+
+.example-image {
+  position: absolute;
+  top: 290px;
+  left: 560px;
+  height: 480px;
+  width: 600px;
 }
