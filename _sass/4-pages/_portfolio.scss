@@ -1,0 +1,48 @@
+.portfolio-navigation {
+  position: absolute;
+  top: 420px;
+  left: 50px;
+  height: 175px;
+  width: 240px;
+
+  .navigation-title {
+    background: #65a604;
+    height: 60px;
+    text-align: center;
+    margin-bottom: 15px;
+
+    h1 {
+      line-height: 60px;
+      font-weight: bold;
+      font-size: 32px;
+    }
+  }
+
+  .selected {
+    background: #76af0f;
+  }
+
+  a { color: #dadada; }
+
+  li {
+    height: 25px;
+    line-height: 25px;
+    background: #65a604;
+    text-align: center;
+
+    &:hover {
+      background: #76af0f;
+    }
+  }
+}
+
+.portfolio-image {
+  position: absolute;
+  top: 320px;
+  left: 360px;
+}
+
+#bedroom-navigation {
+  top: 300px;
+  height: 375px;
+}
