@@ -1,0 +1,44 @@
+.news-container {
+  h1 { font-weight: bold; }
+  p { font-size: 14px;}
+  a {
+    color: #65a604;
+
+    &:hover {
+      color: #76af0f;
+    }
+  }
+
+  .appearances {
+    position: absolute;
+    top: 690px;
+    left: 30px;
+    height: 100px;
+    width: 300px;
+  }
+
+  .news {
+    position: absolute;
+    top: 290px;
+    left: 30px;
+    height: 400px;
+    width: 520px;
+  }
+
+  .testimonials {
+    position: absolute;
+    top: 290px;
+    left: 570px;
+    height: 600px;
+    width: 580px;
+
+    .testimonials-container {
+      height: 400px;
+      overflow-y: scroll;
+
+      .tag {
+        font-weight: bold;
+      }
+    }
+  }
+}
