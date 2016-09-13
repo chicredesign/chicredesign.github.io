@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="contact-container">
+  <div class="form-container">
+    <form data-toggle="validator" action="https://formspree.io/bluemer.mark@gmail.com"
+      method="POST">
+      <div class="form-group">
+          <label for="name">Your name:</label>
+          <input type="text" name="name" class="form-control" id="name" required="true">
+      </div>
+      <div class="form-group">
+          <label for="email">Your email:</label>
+          <input type="email" name="email" class="form-control" id="email" required>
+      </div>
+      <div class="form-group">
+          <label for="phone">Your phone number:</label>
+          <input type="tel" name="phone" class="form-control" id="phone" required>
+      </div>
+      <div class="form-group">
+          <label for="comments">Comments:</label>
+          <textarea class="form-control" name="comments" id="comments" rows="4" cols="40"></textarea>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+</div>
