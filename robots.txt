@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+
+Sitemap: https://chicredesign.github.io/sitemap.xml
