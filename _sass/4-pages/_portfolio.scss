@@ -42,6 +42,18 @@
   left: 360px;
 }
 
+.carousel {
+  position: absolute;
+  top: 320px;
+  left: 360px;
+  height: 490px;
+  width: 730px;
+
+  img {
+    margin: 0 auto;
+  }
+}
+
 #bedroom-navigation {
   top: 300px;
   height: 375px;
